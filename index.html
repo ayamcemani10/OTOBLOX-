@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OTOBLOX | Automotive Universe</title>
+    <style>
+        /* Reset & Base Style */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            background-color: #e3e3e3; /* Warna abu-abu terang ala UI Roblox */
+            color: #333;
+        }
+
+        /* Header / Navbar */
+        header {
+            background-color: #0074e4; /* Biru khas Roblox */
+            padding: 20px;
+            text-align: center;
+            border-bottom: 5px solid #005bb5;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+        }
+
+        header h1 {
+            color: white;
+            font-size: 3rem;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            text-shadow: 3px 3px 0px #000;
+        }
+
+        /* Hero Section */
+        .hero {
+            background-color: #ffffff;
+            margin: 20px auto;
+            padding: 40px;
+            width: 90%;
+            max-width: 1000px;
+            border-radius: 15px;
+            border: 4px solid #000;
+            text-align: center;
+        }
+
+        .hero h2 {
+            font-size: 2rem;
+            margin-bottom: 10px;
+        }
+
+        /* Main Content / Grid Mobil */
+        .container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            padding: 20px;
+            width: 90%;
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+
+        .card {
+            background: white;
+            border: 3px solid #333;
+            border-radius: 10px;
+            padding: 15px;
+            transition: transform 0.2s;
+            cursor: pointer;
+            box-shadow: 6px 6px 0px #333;
+        }
+
+        .card:hover {
+            transform: translate(-3px, -3px);
+            box-shadow: 9px 9px 0px #0074e4;
+        }
+
+        .card img {
+            width: 100%;
+            border-radius: 8px;
+            background-color: #ddd; /* Placeholder jika tidak ada gambar */
+        }
+
+        .card h3 {
+            margin-top: 15px;
+            color: #0074e4;
+        }
+
+        .btn-buy {
+            display: inline-block;
+            margin-top: 10px;
+            padding: 10px 20px;
+            background-color: #00b06f; /* Hijau Robux/Success */
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            border-radius: 5px;
+            border-bottom: 4px solid #008453;
+        }
+
+        /* Footer */
+        footer {
+            text-align: center;
+            padding: 40px;
+            font-size: 0.9rem;
+            color: #777;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>OTOBLOX</h1>
+        <p style="color: white; font-weight: bold;">Jelajahi Dunia Otomotif di Blok Kami!</p>
+    </header>
+
+    <section class="hero">
+        <h2>Selamat Datang, Racer! 🏎️</h2>
+        <p>Dapatkan informasi update mobil terbaru, spesifikasi mesin, dan modifikasi ala Robloxian hanya di OTOBLOX.</p>
+    </section>
+
+    <div class="container">
+        <div class="card">
+            <div style="height: 150px; background: #555; border-radius: 8px; display: flex; align-items: center; justify-content: center; color: white;"><a href="https://ibb.co/hFZbPyRz"><img src="https://i.ibb.co/SwdbhPXC/M2-COMP.jpg" alt="M2-COMP" border="0"></a></div>
+            <h3>BMW M2 CS</h3>
+            <p>Kecepatan: 302 KM/H</p>
+            <p>Mesin: S58 I6 3000cc</p>
+            <a href="#" class="btn-buy">Lihat Detail</a>
+        </div>
+
+        <div class="card">
+            <div style="height: 150px; background: #fb0; border-radius: 8px; display: flex; align-items: center; justify-content: center; color: white;"><a href="https://ibb.co/VYMhDWPc"><img src="https://i.ibb.co/XxFdpZvr/TYPE-R-FK8.jpg" alt="TYPE-R-FK8" border="0"></a></div>
+            <h3>HONDA CIVIC TYPE-R FK8</h3>
+            <p>Kecepatan: 272 KM/H</p>
+            <p>Mesin: K20 I4 2000CC</p>
+            <a href="#" class="btn-buy">Lihat Detail</a>
+        </div>
+
+        <div class="card">
+            <div style="height: 150px; background: #f0f; border-radius: 8px; display: flex; align-items: center; justify-content: center; color: white;"><a href="https://ibb.co/7d6RZ80t"><img src="https://i.ibb.co/G4bt8BrQ/YANGWANG-U9.jpg" alt="YANGWANG-U9" border="0"></a></div>
+            <h3>YANGWANG U9</h3>
+            <p>Kecepatan: 495+ KM/H</p>
+            <p>E-Motor: 4WD ELECTRIC 960kW</p>
+            <a href="#" class="btn-buy">Lihat Detail</a>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2026 OTOBLOX. Bukan produk resmi Roblox. Dibuat dengan semangat otomotif.</p>
+    </footer>
+
+</body>
+</html>
